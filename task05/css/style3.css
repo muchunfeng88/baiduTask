@@ -1,0 +1,40 @@
+*{ margin:0;padding: 0;}
+header,section,article,hgroup,figure,figcaption{ display: block;}
+ul{ list-style: none;}
+img{ border:0; vertical-align: middle;}
+body{ font-family: 'Microsoft Yahei';}
+header{ height: auto; overflow: hidden; background-color:#000000; width: 100%;}
+header img{ float: left;}
+header nav{ float: right; padding: 20px 20px 0 0 ;}
+header nav li{  font-size: 12px; color: #ffffff; display: inline-block; padding: 0 0 0 10px;}
+header nav li.cur{ color: #585858;}
+main{ width:100%; background-color: #e8e8e8; height: auto; overflow: hidden; min-width: 1200px;}
+article{ padding: 20px; background-color: #ffffff; height: auto; overflow: hidden; border: solid 1px #585858; width:100%; margin: 20px; border: solid 1px #cbcbcb; box-shadow: 1px 1px 3px #a4a4a4}
+article hgroup h1{ font-size: 24px; color: #010009; line-height: 50px;}
+article hgroup h2{ font-size: 18px; color: #7c7a7b; line-height: 40px;}
+article p.text{ font-size: 14px; color: #000023; line-height: 30px;text-indent: 25px;}
+article p:first-of-type{ font-size: 14px; color: #5f5f5f; line-height: 25px;}
+article p img{ width: 50%}
+article ul{ padding: 10px 0 0 20px; height: auto; overflow:hidden; }
+article ul li{line-height: 30px;}
+article h2{line-height: 50px;}
+article figure{ border: solid 1px #bababa; height: auto; overflow: hidden; padding:1% 3% 3% 3%; width: 13%; float: left;}
+article figcaption{ line-height: 50px;}
+article figure img{ width: 100%;}
+article ol{ padding-left:50px; height: auto; overflow: hidden;}
+article ol li{ line-height: 30px;}
+article .table{border-collapse:collapse; border: solid 1px #e5e5e5;}
+article .table td{ padding-left: 10px; line-height: 30px; font-size: 12px;}
+
+article aside hgroup h2{ border-left: solid 5px #eeeeee; padding-left: 15px; line-height: 40px; }
+article .form{ height: auto; overflow: hidden;}
+article .form li{ height: auto; overflow: hidden;}
+article .form li div{ height: auto; overflow: hidden;}
+article .form li label ,article .form li span{ float: left; width: 140px; text-align: right;}
+article .form li.label_span label{ display: inline; float: none; width: 0;}
+article .form li div input{ float: left;}
+article .form li p{ padding-left: 140px;}
+article .form li .submit_btn{ width: 98%; height: 40px; line-height: 40px; background-color:#3553cf; text-align: center; color: #ffffff; border: none; border-radius: 5px; }
+
+.main{ margin-right: 400px; height: auto; overflow: hidden; }
+.fr{ float: right; width: 400px;}
